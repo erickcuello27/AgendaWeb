@@ -1,0 +1,71 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body{
+    background-color: #110161;
+}
+
+.title{
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 2px;
+    border-color: cyan;
+    padding: 50px;
+    color: white;
+}
+
+.table{
+    width: 100%;
+    font-size: 16px;
+    border-collapse: collapse;
+    margin-top: 2px;
+}
+
+#AgendaNombre{
+    width: 400px;
+}
+
+#AgendaApellido{
+    width: 400px;
+}
+
+#AgendaNumero{
+    width: 100px;
+}
+
+th{
+    border: 2px solid;
+    border-color: cyan;
+    color: white;
+}
+
+th:nth-child(1) {
+    width: 20%;
+}
+  
+th:nth-child(2) {
+    width: 20%;
+}
+  
+th:nth-child(3) {
+    width: 10%;
+}
+
+th:nth-child(4) {
+    width: 20%;
+}
+  
+th:nth-child(5) {
+    width: 20%;
+}
+  
+th:nth-child(6) {
+    width: 10%;
+}
+
+td{
+    border: 2px solid;
+    border-color: cyan;
+    color: white;
+}
